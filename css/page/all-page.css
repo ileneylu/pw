@@ -19,14 +19,14 @@ h2 {
 
 
 h3 {
-    color: #355470;
+    color: #403f3d;
     font-size: 18px;
     font-weight: 600;
     margin-top: 10px;
 }
 
 h4{
-    color: #355470;
+    color: #403f3d;
     font-size: 16px;
     font-weight: 700;
 }
@@ -48,8 +48,8 @@ a.btn {
     font-size: 14px;
     font-weight: 600;
     border-radius: 7px;
-    background-color: #63aa35;
-    border-bottom: 2px solid #b3e077;
+    background-color: #403f3d;
+    border-bottom: 2px solid #000000;
     background-image: url(../../images/icon-arrow-white.svg);
     -webkit-background-size: 18px;
     -moz-background-size: 18px;
@@ -60,10 +60,10 @@ a.btn {
 }
 
 a.btn:hover, a.btn:active {
-    background-color: #549a27;
+    background-color: #403f3d;
     color: #ffffff;
     text-decoration: none;
-    border-bottom: 2px solid #99c85a;
+    border-bottom: 2px solid #000000;
 }
 
 @media only screen and (max-width:479px) {
@@ -78,24 +78,8 @@ a.btn:hover, a.btn:active {
     background-color: transparent;
 }
 
-.navbar-default .navbar-nav>.active.our-work {
-    background-color: #39a9d4;
-}
-
-.navbar-default .navbar-nav>.active.about-us {
-    background-color: #63aa35;
-}
-
-.navbar-default .navbar-nav>.active.our-capabilities {
-    background-color: #f87b02;
-}
-
-.navbar-default .navbar-nav>.active.careers {
-    background-color: #355470;
-}
-
-.navbar-default .navbar-nav>.active.contact-us {
-    background-color: #1d9bcb;
+.navbar-default .navbar-nav>.active{
+    background-color: #403f3d;
 }
 
 
